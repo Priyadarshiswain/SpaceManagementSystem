@@ -1,0 +1,17 @@
+<div class="container">
+  <div class="row">&nbsp;</div>
+  <div class="row">
+    <div class="col-2">User Name</div>
+    <div class="col-4"><input [(ngModel)]="uname" type="text" id="usernameInput" /></div>
+  </div>
+  <div class="row">
+    <div class="col-2">Password</div>
+    <div class="col-4"><input [(ngModel)]="pass" type="text" id="passwordInput" /></div>
+  </div>
+  <div class="row">&nbsp;</div>
+  <div class="row">
+    <div class="col-6">
+      <input type="button" id="login" (click)="login()" value="Login" />
+    </div>
+  </div>
+</div>
